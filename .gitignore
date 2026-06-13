@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Deep Learning / ML cache & logs
+.ipynb_checkpoints/
+checkpoint-*/
+runs/
+*.log
+.cache/
+
+# IDE configurations
+.vscode/
+.idea/
+*.suo
+*.user
