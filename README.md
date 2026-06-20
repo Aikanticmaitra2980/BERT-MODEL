@@ -21,4 +21,18 @@ This repository provides a modular blueprint for tokenizing text data, setting u
 Make sure you have Python 3.8+ installed. You can install the required dependencies using `pip`:
 
 ```bash
-pip install torch transformers scikit-learn pandas numpy
+**pip install torch transformers scikit-learn pandas numpy
+```output
+**Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+Confusion Matrix:
+ [[1 0]
+  [0 1]]
